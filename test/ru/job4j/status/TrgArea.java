@@ -8,8 +8,8 @@ public class TrgArea {
         return second;
             }
     public static void main (String [] args){
-        double result = TrgArea.zone (2,2,2);
-        System.out.println (" площадь треугоьника со сторонами 2 2 2 равна " + result);
+        double result = TrgArea.zone (3,3,3);
+        System.out.println (" площадь треугольника со сторонами 2 2 2 равна " + result);
 
     }
 }
