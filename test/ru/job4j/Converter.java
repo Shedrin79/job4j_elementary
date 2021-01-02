@@ -21,11 +21,11 @@ public class Converter {
         System.out.println("если 140 рублей это 2 евро. Результат теста - " + passed);
         int dollar = Converter.rubleToDollar(120);
         int in2 = 120;
-        int expected2 = 2;
+        int expected2 = 3;
         int out2 = Converter.rubleToDollar(in2);
         boolean passed2 = expected2 == out2;
         System.out.println("120 рублей - это " + dollar + " доллар");
-        System.out.println("если 120 рублей это 2 доллара. Результат теста - " + passed2);
+        System.out.println("если 120 рублей это 3 доллара. Результат теста - " + passed2);
     }
 
 
