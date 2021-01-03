@@ -9,7 +9,7 @@ public class SqArea {
     }
 
     public static void main(String[] args) {
-        double result = SqArea.square(6, 2);
+        double result = SqArea.square(200, 100);
         System.out.println(" если периметр = 6, а коэффициент k = 2, то площадь равна " + result);
 
     }
