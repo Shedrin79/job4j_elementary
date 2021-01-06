@@ -1,14 +1,14 @@
 package ru.job4j.condition;
 
 public class Max {
-    public static String max(int one, int two) {
-        String label = one > two ? "Значение one максимально" : "Значение two максимально";
-        return label;
+    public static int max(int one, int two) {
+        int rsl = one > two ? one : two;
+        return rsl;
     }
 
     public static void main(String[] args) {
-        String label = Max.max(9, 10);
-        System.out.println(label);
+        int rsl = Max.max(11, 12);
+        System.out.println(rsl);
     }
 
 }

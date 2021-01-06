@@ -28,7 +28,7 @@ public class DummyBotTest {
     public void whenUnKnownBot() {
         assertThat(
                 DummyBot.answer("как сам бот"),
-                is("Это ставит меня в тупик. Задайте другой вопрос.")
+                is("Это ставит меня в тупик. Задайте другой вопрос")
         );
     }
 
