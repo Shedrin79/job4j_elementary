@@ -2,12 +2,12 @@ package ru.job4j.condition;
 
 public class Max {
     public static int max(int one, int two) {
-        int rsl = one > two ? one : two;
-        return rsl;
+        return one > two ? one : two;
+
     }
 
     public static void main(String[] args) {
-        int rsl = Max.max(11, 12);
+        int rsl = Max.max(15, 12);
         System.out.println(rsl);
     }
 
