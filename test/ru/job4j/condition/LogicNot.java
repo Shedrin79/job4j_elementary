@@ -19,11 +19,11 @@ public class LogicNot {
     }
 
     public static boolean notEvenAndPositive(int num) {
-        return (!isEven(num) && isPositive(num));
+        return (notEven(num) && isPositive(num));
     }
 
     public static boolean evenOrNotPositive(int num) {
-        return (isEven(num) || !isPositive(num));
+        return (isEven(num) || notPositive(num));
     }
 
     public static void main(String[] args) {
@@ -31,13 +31,13 @@ public class LogicNot {
         System.out.println(rsl);
         boolean rsl2 = LogicNot.isEven(6);
         System.out.println(rsl2);
-        boolean rsl3 = LogicNot.notEven(8);
+        boolean rsl3 = LogicNot.notEven(9);
         System.out.println(rsl3);
         boolean rsl4 = LogicNot.notPositive(-8);
         System.out.println(rsl4);
         boolean rsl5 = LogicNot.notEvenAndPositive(10);
         System.out.println(rsl5);
-        boolean rsl6 = LogicNot.evenOrNotPositive(3);
+        boolean rsl6 = LogicNot.evenOrNotPositive(-3);
         System.out.println(rsl6);
     }
 
