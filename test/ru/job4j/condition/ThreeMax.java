@@ -14,7 +14,7 @@ public class ThreeMax {
 
 
     public static void main(String[] args) {
-        int rsl = ThreeMax.max(15, 14, 15);
+        int rsl = ThreeMax.max(3, 4, 4);
         System.out.println(rsl);
     }
 }
