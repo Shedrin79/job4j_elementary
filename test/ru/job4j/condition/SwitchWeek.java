@@ -33,8 +33,12 @@ public class SwitchWeek {
     }
 
     public static void main(String[] args) {
-        String a = SwitchWeek.nameOfDay(5);
+        String a = SwitchWeek.nameOfDay(1);
+        String b = SwitchWeek.nameOfDay(2);
+        String c = SwitchWeek.nameOfDay(3);
         System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
 
     }
 }
