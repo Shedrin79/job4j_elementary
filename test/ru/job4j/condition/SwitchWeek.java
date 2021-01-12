@@ -39,6 +39,9 @@ public class SwitchWeek {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
+        System.out.println(nameOfDay(7));
+        System.out.println(nameOfDay(8));
+
 
     }
 }
