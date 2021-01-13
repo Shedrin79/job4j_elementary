@@ -2,34 +2,16 @@ package ru.job4j.condition;
 
 public class Proverka {
 
-    public static int sum(int start, int finish) {
-        int sum = 0;
-        for (int index = start; index <= finish; index++) {
-            sum = sum + index;
+    public static int dz(int n) {
+        int rsl = 1;
+        for (int index = 1; index <= n; index++) {
+            rsl = rsl * index;
         }
-        return sum;
-    }
-
-    public static int sumByEven(int start, int finish) {
-        int sumByEven = 0;
-        for (int index = start; index <= finish; index++) {
-            if (index % 2 == 0) {
-                sumByEven = sumByEven + index;
-            }
-        }
-        return sumByEven;
+        return rsl;
     }
 
     public static void main(String[] args) {
-        System.out.println(sum(0, 10));
-        System.out.println(sum(3, 8));
-        System.out.println(sum(1, 1));
-        System.out.println("ПЕРЕРЫВ");
-
-        System.out.println(sumByEven(0, 10));
-        System.out.println(sumByEven(3, 8));
-        System.out.println(sumByEven(1, 1));
-
+        System.out.println(dz(5));
     }
 }
 
