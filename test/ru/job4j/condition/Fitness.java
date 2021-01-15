@@ -13,7 +13,7 @@ public class Fitness {
 
 
     public static void main(String[] args) {
-        int rsl = Fitness.calc(90, 100);
+        int rsl = Fitness.calc(90, 90);
         System.out.println("При такой протеиновой диете Иван перегонит Николая через " + rsl + " месяц");
 
     }
