@@ -3,19 +3,19 @@ package ru.job4j.condition;
 public class CheckPrimeNumber {
 
     public static boolean check(int number) {
-        boolean rsl = false;
-        for (int index = 2; index <= 5; index++) {
+        boolean a = false;
+        for (int index = 2; index <= number; index++) {
             if (number % index == 0) {
                 break;
             } else {
-                rsl = true;
+                a = true;
             }
         }
-        return rsl;
+        return a;
     }
 
     public static void main(String[] args) {
-        System.out.println(check(1));
+        System.out.println(check(7));
     }
 }
 
