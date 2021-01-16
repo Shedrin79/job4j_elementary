@@ -8,15 +8,13 @@ public class CheckPrimeNumber {
             if (number % index == 0) {
                 a = false;
                 break;
-            } else {
-                a = true;
             }
         }
         return a;
     }
 
     public static void main(String[] args) {
-        System.out.println(check(2));
+        System.out.println(check(1));
     }
 }
 
