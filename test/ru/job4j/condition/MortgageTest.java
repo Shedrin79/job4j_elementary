@@ -18,5 +18,4 @@ public class MortgageTest {
         assertThat(year, is(2));
     }
 
-
 }

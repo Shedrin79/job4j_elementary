@@ -15,6 +15,5 @@ public class Cinema2 {
         permission(false, true);
         permission(false, false);
 
-
     }
 }

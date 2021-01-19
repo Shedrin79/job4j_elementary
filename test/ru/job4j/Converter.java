@@ -28,5 +28,4 @@ public class Converter {
         System.out.println("если 120 рублей это 3 доллара. Результат теста - " + passed2);
     }
 
-
 }
