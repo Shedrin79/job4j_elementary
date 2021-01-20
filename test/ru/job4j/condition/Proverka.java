@@ -1,24 +1,22 @@
 package ru.job4j.condition;
 
 public class Proverka {
-
-    public static void calc(int n) {
-        int hold = 0;
-        for (int index = 1; index <= n; index++) {
-            hold = hold + index;
-            if (hold == n) {
-                System.out.println("Success");
-                break;
-            } else if (hold > n) {
-                System.out.println("Not possible");
+    public static boolean chek(int number) {
+        boolean a = number > 1;
+        for (int index = 2; index < number; index++) {
+            if ((number % index) == 0) {
+                a = false;
                 break;
             }
-            System.out.println(hold);
         }
+        return a;
     }
 
     public static void main(String[] args) {
-        calc(6);
-        calc(5);
+        System.out.println(chek(7));
+
     }
+
 }
+
+
