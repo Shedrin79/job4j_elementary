@@ -7,6 +7,7 @@ public class Trenirovka {
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = index;
             System.out.println(numbers[index]);
+
         }
     }
     }
