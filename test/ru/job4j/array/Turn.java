@@ -11,7 +11,7 @@ public class Turn {
     }
 
     public static void main(String[] args) {
-        int[] nuts = new int[]{3, 4, 7, 11, 1000, 2000, 100, 10, 7};
+        int[] nuts = new int[]{3, 4, 7, 11, 1000, 2000, 100, 10, 7, 9};
         int[] rsl = back(nuts);
         for (int i = 0; i < rsl.length; i++) {
             System.out.println(rsl[i]);
