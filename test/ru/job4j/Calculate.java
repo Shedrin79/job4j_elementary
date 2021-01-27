@@ -9,7 +9,7 @@ public class Calculate {
         int a = 1;
         int b = 1;
         int c = 1;
-        int x = 1;
+        int x = 2;
         int result = Calculate.calc(a, b, c, x);
         a = 0;
         b = 1;
