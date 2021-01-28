@@ -5,13 +5,16 @@ public class Check {
     public static boolean mono(boolean[] data) {
         boolean result = true;
         for (int index = 0; index < data.length - 1; index++) {
-            if (data[0] = data[index + 1]) {
-                return result;
-            } else {
-                return false;
+            if (data[0] != data[index + 1]) {
+                result = false;
             }
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        boolean[] nut = new boolean[]{false, false, false, false, true};
+        System.out.println(mono(nut));
     }
 }
 
