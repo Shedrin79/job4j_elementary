@@ -23,8 +23,8 @@ public class ArrayChar {
         return result;
     }
     public static void main(String[] args) {
-        char[] numer = new char[]{'q', 'w', 'e', 'r'};
-        char[] number = new char[]{'q', 'w', 'e', 'r'};
+        char[] numer = new char[]{'q', 'w', 'e', 'r', 'q'};
+        char[] number = new char[]{'q', 'w', 'e', 'r', 'q'};
         System.out.println(startsWith(numer, number));
     }
 }
