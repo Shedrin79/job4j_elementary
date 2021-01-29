@@ -1,7 +1,8 @@
-package ru;
+package ru.job4j.status;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.status.Calculate;
 
 public class CalculateTest2 {
 

@@ -1,4 +1,4 @@
-package ru;
+package ru.job4j.status;
 
 public class ArgMethod {
     public static void hello(String name) {

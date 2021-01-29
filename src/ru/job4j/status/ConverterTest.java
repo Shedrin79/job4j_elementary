@@ -1,8 +1,9 @@
-package ru;
+package ru.job4j.status;
 
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.status.Converter;
 
 public class ConverterTest {
 

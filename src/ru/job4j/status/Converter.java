@@ -1,4 +1,4 @@
-package ru;
+package ru.job4j.status;
 
 public class Converter {
     public static int rubleToEuro(int value) {
