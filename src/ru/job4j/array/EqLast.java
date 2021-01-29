@@ -11,7 +11,7 @@ public class EqLast {
 }
 
     public static void main(String[] args) {
-        int[] leftt = new int[]{1, 2, 3, 4, 0};
+        int[] leftt = new int[]{1, 2, 3, 4, 0, 4};
         int[] rightt = new int[]{1, 2, 3, 4, 5, 5, 4};
         System.out.println(check(leftt, rightt));
     }
