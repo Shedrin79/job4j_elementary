@@ -15,5 +15,4 @@ public class Min {
         int[] mass = new int[]{6, 2, 3, 4, 5, 6, 1, 9, 0};
         System.out.println(findMin(mass));
     }
-
 }
