@@ -13,6 +13,6 @@ public class MinDiapason {
 
     public static void main(String[] args) {
         int[]mass = new int[]{7, 4, 5, 2, 8, 16, 27, 2, 1};
-        System.out.println(findMin(mass, 0, 8));
+        System.out.println(findMin(mass, 3, 8));
     }
 }
