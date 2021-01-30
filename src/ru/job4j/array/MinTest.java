@@ -7,14 +7,23 @@ import static org.junit.Assert.*;
 public class MinTest {
 
     @Test
-    public void findMin() {
+    public void whenSecondMin() {
         int[]input = {6,2,3,4,5};
         int expected = 2;
         int rsl = Min.findMin(input);
         assertThat(rsl, is(expected));
     }
     @Test
-    public void findMin1() {
+    public void whenFirstMin() {
         assertThat(Min.findMin(new int[]{0, 5, 10}), is(0));
+    }
+    @Test
+    public void whenLastMin() {
+        assertThat(Min.findMin(new int[] {10, 5, 3}),is(3));
+    }
+
+    @Test
+    public void whenMiddleMin() {
+        assertThat(Min.findMin(new int[] {10, 2, 5}),is(2));
     }
 }
