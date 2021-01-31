@@ -2,13 +2,32 @@ package ru.job4j.condition;
 
 public class Trenirovka {
 
-    public static boolean check(int[] left, int[] right) {
-        return left[left.length - 1] == right[right.length - 1];
+
+    public static int sum(int start, int finish) {
+        int sum = 0;
+        for (int i = start; i <= finish; i++) {
+            sum = sum + i;
+        }
+        return sum;
+    }
+
+    public static int sumByEven(int start, int finish) {
+        int sum = 0;
+        for (int i = start; i <= finish; i++) {
+            if ( i % 2 == 0) {
+                sum = sum + i;
+            }
+        }
+        return sum;
     }
 
     public static void main(String[] args) {
-        int[] leftt = new int[]{1, 2, 3, 4, 0, 4, 5};
-        int[] rightt = new int[]{1, 2, 3, 4, 5, 5, 4};
-        System.out.println(check(leftt, rightt));
+        System.out.println(sum(0, 10));
+        System.out.println(sum(3, 8));
+        System.out.println(sum(1, 1));
+
+        System.out.println(sumByEven(0, 8));
+        System.out.println(sumByEven(0, 4));
+        System.out.println(sumByEven(3, 4));
     }
 }
