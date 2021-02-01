@@ -1,6 +1,6 @@
 package ru.job4j.array;
 
-import java.util.Arrays;
+
 
 public class SortSelected {
     public static int[] sort(int[] data) {
@@ -15,5 +15,14 @@ public class SortSelected {
         return data;
     }
 
+    public static void main(String[] args) {
+        int[] mass = new int[]{6, 5, 4, 3, 2, 1};
+        int[] rsl = sort(mass);
+        for (int i = 0; i < rsl.length; i++) {
+            System.out.print(rsl[i]);
+        }
+    }
 }
+
+
 
