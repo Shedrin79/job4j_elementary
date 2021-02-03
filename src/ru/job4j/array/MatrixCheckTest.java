@@ -49,4 +49,24 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, 2);
         assertThat(result, is(false));
     }
+    @Test
+    public void whenHasMonoVertical() {
+        char[][] input = {
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+        };
+        boolean result = MatrixCheck.monovertical(input, 2);
+        assertThat(result, is(true));
+    }
+    @Test
+    public void whenDoesnHasMonoVertical() {
+        char[][] input = {
+                {' ', ' ', 'X'},
+                {' ', ' ', ' '},
+                {' ', ' ', 'X'},
+        };
+        boolean result = MatrixCheck.monovertical(input, 2);
+        assertThat(result, is(false));
+    }
 }
