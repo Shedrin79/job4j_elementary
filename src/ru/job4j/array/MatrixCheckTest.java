@@ -92,4 +92,15 @@ public class MatrixCheckTest {
         char[] expect = {'X', 'X', 'X', 'X'};
         assertThat(result, is(expect));
     }
+    @Test
+    public void whenDiagonal2() {
+        char[][] input = {
+                {'X', ' '},
+                {' ', 'X'},
+
+        };
+        char[] result = MatrixCheck.extractDiagonal(input);
+        char[] expect = {'X', 'X'};
+        assertThat(result, is(expect));
+    }
 }
