@@ -7,7 +7,6 @@ public class Defragment {
                 int point = index;
                 for (int i = point; i < array.length; i ++) {
                     if (array[i] != null) {
-                        int point2 = i;
                         String basa = array[point];
                         array[point] = array[i];
                         array[i] = basa;
