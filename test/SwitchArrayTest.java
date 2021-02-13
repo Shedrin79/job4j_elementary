@@ -1,3 +1,4 @@
+import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 import ru.job4j.array.SwitchArray;
 
@@ -21,4 +22,5 @@ public class SwitchArrayTest {
         int[] rsl = SwitchArray.swap(input, 3, input.length - 1);
         assertThat(rsl, is(expected));
     }
+
 }

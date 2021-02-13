@@ -1,7 +1,6 @@
-package ru;
-
+import org.hamcrest.CoreMatchers;
 import org.junit.Test;
-import static org.hamcrest.CoreMatchers.is;
+
 import static org.junit.Assert.assertThat;
 
 public class MainTest {
@@ -9,6 +8,6 @@ public class MainTest {
     public void whenActionThenResult() {
         int excepted = 1;
         int result = 1;
-        assertThat(result, is(excepted));
+        assertThat(result, CoreMatchers.is(excepted));
     }
 }

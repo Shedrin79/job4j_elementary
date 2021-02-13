@@ -10,7 +10,7 @@ public class Machine {
         for (int i = 0; i < coins.length; i++) {
             while (sdacha >= coins[i]) {
                 sdacha = sdacha - coins[i];
-                rsl[size++]= coins[i];
+                rsl[size++] = coins[i];
                 }
         }
         return Arrays.copyOf(rsl, size);
