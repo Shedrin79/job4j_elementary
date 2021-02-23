@@ -19,6 +19,7 @@ public class Trener {
         return Arrays.copyOf(rsl, size);
     }
 
+
     public static void main(String[] args) {
 
         int []result = chan(100, 19);
